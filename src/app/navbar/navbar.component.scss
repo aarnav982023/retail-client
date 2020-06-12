@@ -1,0 +1,17 @@
+.title {
+  flex: 1 1 auto;
+  font-family: "Sriracha", cursive;
+  font-size: xx-large;
+}
+.navbar {
+  background-color: transparent;
+  color: white;
+}
+.login-button {
+  background-image: linear-gradient(to right, #202124, #1a1b1d);
+  color: white;
+  width: 100px;
+  border-radius: 7px;
+  box-shadow: 3px 1px 8px #0d0d0e;
+  font-family: "Sriracha", cursive;
+}

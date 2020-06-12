@@ -1,0 +1,29 @@
+<h2 mat-dialog-title>Log in with</h2>
+<div mat-dialog-content>
+  <button
+    mat-raised-button
+    class="login-button"
+    color="primary"
+    (click)="login('google')"
+  >
+    <span class="login-button-span">
+      <span class="logo">
+        <mat-icon class="fab fa-google"></mat-icon>
+      </span>
+      <span class="text">Google</span>
+    </span>
+  </button>
+  <button
+    mat-raised-button
+    class="login-button"
+    color="primary"
+    (click)="login('github')"
+  >
+    <span class="login-button-span">
+      <span class="logo">
+        <mat-icon class="fab fa-github"></mat-icon>
+      </span>
+      <span class="text">Github</span>
+    </span>
+  </button>
+</div>
