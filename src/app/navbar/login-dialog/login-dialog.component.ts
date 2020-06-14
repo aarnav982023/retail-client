@@ -16,6 +16,6 @@ export class LoginDialogComponent implements OnInit {
   ngOnInit(): void {}
 
   login = (provider: string) => {
-    this.auth.login(provider);
+    this.auth.login(provider, this.dialogRef);
   };
 }

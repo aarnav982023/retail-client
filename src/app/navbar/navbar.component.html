@@ -1,6 +1,6 @@
 <mat-toolbar class="navbar">
   <span class="title">retail</span>
-  <span
+  <span *ngIf="!this.auth.loggedIn.getValue()"
     ><button
       mat-raised-button
       color="primary"
@@ -10,4 +10,7 @@
       login
     </button></span
   >
+  <span *ngIf="this.auth.loggedIn.getValue()">
+    <p>{{ this.auth.user.getValue().name }}</p>
+  </span>
 </mat-toolbar>
